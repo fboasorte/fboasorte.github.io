@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A tag &lt;picture&gt;</title>
+    <link rel="stylesheet" href="../../../global.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <h1>Tag &lt;picture&gt;</h1>
+      <a href="../../html/referencias.html#title">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+    </div>
+    <hr />
+    <div class="tag_content">
+      <h2>Definição e Uso</h2>
+    <div class="def">
+      
+            <p>A tag &lt;picture&gt; oferece aos desenvolvedores da web mais flexibilidade na especificação de recursos de imagem.</p>
+
+            <p>O uso mais comum do elemento &lt;picture&gt; será para direção de arte em designs responsivos. Em vez de ter uma imagem que é dimensionada para cima ou para baixo com base na largura da janela de visualização, várias imagens podem ser projetadas para preencher melhor a janela de visualização do navegador.</p>
+
+            <p>O elemento &lt;picture&gt; contém duas tags: uma ou mais tags &lt;source&gt; e uma tag &lt;img&gt;.</p>
+
+            <p>O navegador procurará o primeiro elemento &lt;source&gt; onde a consulta de mídia corresponde à largura da janela de visualização atual e, em seguida, exibirá a imagem apropriada (especificada no atributo srcset). O elemento &lt;img&gt; é necessário como o último filho do elemento &lt;picture&gt;, como uma opção de fallback se nenhuma das tags de origem corresponder.</p>
+
+            <p>Dica: O elemento &lt;picture> funciona "semelhante" a &lt;video&gt; e &lt;audio&gt;. Você configura fontes diferentes, e a primeira fonte que se encaixa nas preferências é aquela que está sendo usada.&lt;br /&gt;&lt;br /&gt;</p>           
+      
+    </div>
+
+    <h2>Exemplo</h2>
+    <p>Exemplo de uso da tag:</p>
+    <div class="code">
+      <pre>
+            <code>
+                  &lt;picture&gt;
+                    &lt;source media="(min-width:650px)" srcset="img_pink_flowers.jpg"&gt;
+                    &lt;source media="(min-width:465px)" srcset="img_white_flower.jpg"&gt;
+                    &lt;img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;"&gt;
+                  &lt;/picture&gt;    
+            </code>
+        </pre>
+    </div>
+
+    <h2>Atributos Globais</h2>
+    <p>A tag &lt;picture&gt; suporta os Atributos Globais em HTML.</p>
+
+    <h2>Atributos de Evento</h2>
+    <p>A tag &lt;picture&gt; também suporta os atributos de evento em HTML.</p>
+
+
+
+    </div>
+    
+    <hr />
+    <footer>
+      <a href="../../html/referencias.html#script">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+      <p>
+        IFNMG - Campus Montes Claros<br />
+        Desenvolvimento Web<br />
+        ©2021
+      </p>
+    </footer>
+  </body>
+</html>
