@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
   }
+
   #title {
     text-align: center;
     margin-bottom: 50px;
@@ -37,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 35px;
-    width: 400px;
+    width: 350px;
     height: 600px;
     color: #2f3337;
     border: 1px solid #2f3337;
@@ -56,6 +57,10 @@ body {
   }
   #m3 {
     background-color: #ffe7a9;
+  }
+
+  #m4 {
+    background-color: #e0f6ce;
   }
   
   .membro .btn_github {
