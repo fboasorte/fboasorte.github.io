@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A tag &lt;base&gt;</title>
+    <link rel="stylesheet" href="../../../global.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <h1>Tag &lt;base&gt;</h1>
+      <a href="../../html/referencias.html#base">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+    </div>
+    <hr />
+    <div class="tag_content">
+      <h2>Definição e Uso</h2>
+      <div class="def">
+        <p>
+            A tag &lt;base&gt; especifica o URL base e / ou destino para todos os URLs relativos em um documento.<br><br>
+
+            A tag &lt;base&gt; deve ter um href ou um atributo target presente, ou ambos.<br><br>
+            
+            Só pode haver um único elemento &lt;base&gt; em um documento e deve estar dentro do elemento &lt;head&gt;.<br>
+        </p>
+      </div>
+  
+      <h2>Exemplo</h2>
+      <p>
+        Especifique um URL padrão e um destino padrão para todos os links em uma página:
+      </p>
+      <div class="code">
+        <pre>
+                <code>
+                    &lt;head&gt;
+                        &lt;base href="https://www.w3schools.com/" target="_blank"&gt;
+                    &lt;/head&gt;
+                    
+                    &lt;body&gt;
+                        &lt;img src="images/stickman.gif" width="24" height="39" alt="Stickman"&gt;
+                        &lt;a href="tags/tag_base.asp">HTML Tag base&lt;/a&gt;
+                    &lt;/body&gt;
+                </code>
+          </pre>
+      </div>
+  
+      <h2>Atributos</h2>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Atributo</th>
+              <th>Valor</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>href</td>
+                <td><i>URL</i></td>
+                <td>
+                    Especifica o URL base para todos os URLs relativos na página
+                </td>
+              </tr>
+              <tr>
+                <td>target</td>
+                <td>_blank<br>
+                    _parent<br>
+                    _self<br>
+                    _top</td>
+                <td>
+                    Especifica o destino padrão para todos os hiperlinks e formulários na página
+                </td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+   
+    <hr />
+    <footer>
+      <a href="../../html/referencias.html#base">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+      <p>
+        IFNMG - Campus Montes Claros<br />
+        Desenvolvimento Web<br />
+        ©2021
+      </p>
+    </footer>
+  </body>
+</html>

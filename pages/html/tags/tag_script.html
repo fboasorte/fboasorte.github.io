@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A tag &lt;script&gt;</title>
+    <link rel="stylesheet" href="../../../global.css" />
+  </head>
+  <body>
+    <div class="cabecalho">
+      <h1>Tag &lt;script&gt;</h1>
+      <a href="../../html/referencias.html#script">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+    </div>
+    <hr />
+    <div class="tag_content">
+      <h2>Definição e Uso</h2>
+      <div class="def">
+        <p>
+            A tag &lt;script&gt; é usada para incorporar um script do lado do cliente (JavaScript).<br><br>
+
+            O elemento &lt;script&gt; contém instruções de script ou aponta para um arquivo de script externo por meio do atributo src.<br><br>
+                
+            Os usos comuns do JavaScript são manipulação de imagens, validação de formulários e mudanças dinâmicas de conteúdo.<br>
+        </p>
+      </div>
+  
+      <h2>Exemplo</h2>
+      <p>
+        Escreva "Olá, JavaScript!" com JavaScript:
+      </p>
+      <div class="code">
+        <pre>
+            <code>
+                &lt;script&gt;
+                    document.getElementById("demo").innerHTML = "Olá, JavaScript!";
+                &lt;/script&gt;
+            </code>
+        </pre>
+      </div>
+  
+      <h2>Atributos</h2>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Atributo</th>
+              <th>Valor</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>async</td>
+                <td>async</td>
+                <td>
+                    Especifica que o script é baixado paralelamente à análise da página e executado assim que estiver disponível (antes da conclusão da análise) (apenas para scripts externos)
+                </td>
+              </tr>
+
+              <tr>
+                <td>crossorigin</td>
+                <td>anonymous<br>
+                    use-credentials</td>
+                <td>
+                    Define o modo da solicitação para uma solicitação HTTP CORS
+                </td>
+              </tr>
+
+              <tr>
+                <td>defer</td>
+                <td><i>defer</i></td>
+                <td>
+                    Especifica que o script é baixado paralelamente à análise da página e executado após a conclusão da análise da página (apenas para scripts externos)
+                </td>
+              </tr>
+
+              <tr>
+                <td>integrity</td>
+                <td><i>filehash</i></td>
+                <td>
+                    Permite que um navegador verifique o script obtido para garantir que o código nunca seja carregado se a fonte tiver sido manipulada
+                </td>
+              </tr>
+
+              <tr>
+                <td>nomodule</td>
+                <td>True<br>
+                    False</td>
+                <td>
+                    Especifica que o script não deve ser executado em navegadores que suportem módulos ES2015
+                </td>
+              </tr>
+
+              <tr>
+                <td>referrerpolicy</td>
+                <td>no-referrer<br>
+                    no-referrer-when-downgrade<br>
+                    origin<br>
+                    origin-when-cross-origin<br>
+                    same-origin<br>
+                    strict-origin<br>
+                    strict-origin-when-cross-origin<br>
+                    unsafe-url</td>
+                <td>
+                    Especifica quais informações de referência enviar ao buscar um script
+                </td>
+              </tr>
+
+              <tr>
+                <td>src</td>
+                <td><i>URL</i></td>
+                <td>
+                    Especifica o URL de um arquivo de script externo
+                </td>
+              </tr>
+
+              <tr>
+                <td>type</td>
+                <td><i>scripttype</i></td>
+                <td>
+                    Especifica o tipo de mídia do script
+                </td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+  
+    </div>
+   
+    <hr />
+    <footer>
+      <a href="../../html/referencias.html#script">Referencias</a>
+      <a href="../../../index.html">Home</a>
+      <a href="../../html/sobre.html">Sobre</a>
+      <p>
+        IFNMG - Campus Montes Claros<br />
+        Desenvolvimento Web<br />
+        ©2021
+      </p>
+    </footer>
+  </body>
+</html>
